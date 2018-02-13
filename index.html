@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>A letter</title>
+  </head>
+  <body>
+    <div>
+        <div class="customheader">
+          <h1>Enter your name down below for a fun letter :)</h1>
+          <div class="row" id="blanks">
+            <form>
+              <div class="form-group">
+                <input id="usersName" class="form-control" type="text" placeholder="Your name">
+                <div class="buttonWrapper">
+                  <button type="submit" class="custom-button">Show me my letter!</button>
+                </div>
+              </div>
+            </form>
+          </div>
+      </div>
+      <div class="hid">
+        <div class="gif">
+          <h1>Your letter</h1>
+          <img src="https://media0.giphy.com/media/l0ExwfKPdZyEhjFIY/giphy.gif">
+        </div>
+        <div id="letter">
+          <p>Dear <span class="usersName"></span>, a friend asks only for your time not your money.</p>
+          <div id="blanks2" class="response-form">
+            <form>
+              <div class="form-group">
+                <select id="userResponse" class="form-control" type="radio" placeholder="">
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+                <div class="buttonWrapper">
+                  <button type="submit" class="custom-button">Did you like your letter?</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+.customheader, .form-control, .hid {
+  max-width:100%;
+  width:50%;
+  margin: auto;
+}
+
+.customheader {
+  text-align: center;
+}
+
+.buttonWrapper {
+  max-width:50%;
+  width:50%;
+  margin: auto;
+}
+
+#letter p {
+  padding: 280px 30px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 17px;
+}
+
+#letter {
+  background-image: url("https://previews.123rf.com/images/olivier26/olivier261106/olivier26110600034/9793446-blank-page-with-a-red-ball-point-pen-in-the-angle-of-the-page-over-white-background.jpg");
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 100%;
+  background-size: contain;
+  display: none;
+}
